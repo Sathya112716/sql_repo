@@ -93,7 +93,6 @@ START TRANSACTION;
 DELETE FROM users WHERE userid = 1;
 -- ROLLBACK; -- Uncomment this line to rollback changes
 DELETE FROM users WHERE userid = 2;
--- ROLLBACK; -- Uncomment this line to rollback changes
 INSERT INTO product VALUES (3, 'Laptop', 330);
 SELECT product_id, product_name, COUNT(*)
 FROM product
