@@ -4,7 +4,7 @@ CREATE TABLE email_signup (
     email_id VARCHAR(50),
     signup_date DATE
 );
--- 2.Insert the values into the email_signup table
+-- 2.Insert the values into the email_signup
 INSERT INTO email_signup (id, email_id, signup_date) VALUES
 (1, 'Rajesh@Gmail.com', '2022-02-01'),
 (2, 'Rakesh_gmail@rediffmail.com', '2023-01-22'),
