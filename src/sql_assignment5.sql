@@ -4,7 +4,7 @@ CREATE TABLE sales_data (
     sale_date DATE,
     quantity_sold INT
 );
--- 2.Insert the values into the sales_data
+-- 2.Insert the values into the sales_data table
 INSERT INTO sales_data (product_id, sale_date, quantity_sold) VALUES
 (1, '2022-01-01', 20),
 (2, '2022-01-01', 15),
