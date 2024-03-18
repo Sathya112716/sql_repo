@@ -4,7 +4,7 @@ CREATE TABLE dept_tbl (
     emp_name VARCHAR(50),
     salary INT
 );
--- 2.Insert the values in dept_tbl
+-- 2.Insert the values in dept_tbl table
 INSERT INTO dept_tbl (id_deptname, emp_name, salary) VALUES
 ('1111-MATH', 'RAHUL', 10000),
 ('1111-MATH', 'RAKESH', 20000),
